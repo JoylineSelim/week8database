@@ -1,56 +1,62 @@
-Library Management System - README
-Project Overview
-This Library Management System is a comprehensive database solution designed to manage all aspects of a modern library's operations. The system tracks books, members, loans, reservations, fines, and staff with robust relational database design.
+📚 Library Management System
+📖 Project Overview
+This Library Management System is a comprehensive relational database solution built using MySQL to manage the core operations of a modern library. It facilitates the management of books, members, staff, loans, reservations, and fines. The system ensures efficient data integrity and smooth workflow for library operations.
 
-Database Schema
-Tables Structure
-Members: Stores library member information
+🗂️ Database Schema
+🧱 Tables Structure
+Table	Description
+Members	Stores information about library members including contact details and membership dates.
+Authors	Contains author details, including names and biographies.
+Publishers	Maintains records of book publishers.
+Books	Central catalog of all library materials including status and classification.
+Book_Authors	Junction table for many-to-many relationship between books and authors.
+Loans	Tracks book checkouts and returns, due dates, and loan status.
+Fines	Manages overdue fines, payment statuses, and waivers.
+Reservations	Handles the reservation system for books by members.
+Staff	Contains information on library employees and their roles.
 
-Authors: Contains author details and biographies
+🚀 Key Features
+📚 Comprehensive Book Tracking
+Supports multiple copies of a single book.
 
-Publishers: Maintains publisher information
+Tracks availability status of each book.
 
-Books: Central catalog of all library materials
+Enables detailed categorization and classification.
 
-Book_Authors: Many-to-many relationship between books and authors
+👥 Member Management
+Tracks membership status (active/inactive).
 
-Loans: Tracks all book checkouts and returns
+Stores contact information and date joined.
 
-Fines: Manages overdue fines and payments
+Manages borrowing history and account status.
 
-Reservations: Handles book reservation system
+🔁 Loan System
+Records check-in/check-out history.
 
-Staff: Contains employee information
+Calculates due dates and monitors overdue items.
 
-Key Features
-Comprehensive Book Tracking:
+Links each loan to the responsible staff and member.
 
-Multiple copies management
+💰 Financial Tracking
+Automatically computes fines for late returns.
 
-Availability status
+Maintains payment status (paid/unpaid).
 
-Detailed categorization
+Includes options for fine waivers and manual overrides.
 
-Member Management:
+✅ Technologies Used
+MySQL – Database design and management
 
-Membership status tracking
+SQL – Queries and data manipulation
 
-Contact information
+Drawio- Entity Relationship Diagram
+📎 How to Use
+Clone the repository or import the .sql file into your MySQL database.
 
-Membership dates
+Review the CREATE TABLE statements and modify if needed.
 
-Loan System:
+Populate the database with seed data for testing.
 
-Check-in/check-out tracking
+Integrate with a frontend or API as required.
 
-Due date calculation
 
-Overdue status
-
-Financial Tracking:
-
-Fine calculation
-
-Payment status
-
-Waiver management
