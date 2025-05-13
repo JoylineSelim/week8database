@@ -60,3 +60,6 @@ This **Library Management System** is a comprehensive relational database soluti
 4. Integrate with a frontend or API as required.
 
 ---
+## ERD Preview
+![image](https://github.com/user-attachments/assets/c18b1cea-1fe0-4f9e-ace8-77853e93fbf1)
+
