@@ -60,12 +60,3 @@ This **Library Management System** is a comprehensive relational database soluti
 4. Integrate with a frontend or API as required.
 
 ---
-
-## ERD Preview
-
-![ERD](./A_Entity-Relationship_Diagram_(ERD)_illustrates_fo.png)
-
----
-
-## License
-This project is open source and free to use under the [MIT License](LICENSE).
